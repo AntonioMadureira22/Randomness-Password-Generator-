@@ -25,7 +25,24 @@ body{
 .pw{
     height: 50px;
     width: 100%;
-    background-color: rebeccapurple;
+    background-color:rebeccapurple;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+.pw-button{
+    background-color: #ffd524;
+    padding: 0.25rem;
+    font-family: inherit;
+    border: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 50%);
 }
 .pw-body{
     padding: 1rem;
